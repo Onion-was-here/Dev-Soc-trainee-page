@@ -1,0 +1,194 @@
+@font-face {
+  font-family:Prohibition;
+  src: url(assets/ProhibitionTest-Regular.otf);
+}
+
+body {
+  background-image: url(assets/back.png);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf800;
+  font-family: Prohibition;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  /* background-color: #fdf800; */
+}
+
+.navbar a {
+  font-family: Prohibition;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  transform: scale(1.2);
+}
+#name{
+  font-family: Prohibition;
+  font-size: 600%;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#days {
+  font-family: Prohibition;
+  font-size: 500%;
+  color: #FF003C;
+}
+#hours {
+  font-family: Prohibition;
+  font-size: 500%;
+  color: #FF003C;
+}
+#minutes {
+  font-family: Prohibition;
+  font-size: 500%;
+  color: #FF003C;
+}
+#seconds {
+  font-family: Prohibition;
+  font-size: 500%;
+  color: #FF003C;
+}
+
+
+div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+span {
+  font-family: Prohibition;
+  display: block;
+  font-size: 30px;
+  color: white;
+}
+
+.highlight {
+  font-family: Prohibition;
+  font-size: larger;
+  display: grid;
+  place-content: center;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  position: relative;
+}
+
+/* @keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 2px;
+  }
+} */
+
+/* #kitty {
+  padding-top: 2%;
+  padding-bottom: 0%;
+} */
+
+#text {
+  padding-top: 0%;
+  margin-top: -2%;
+}
+/* .text {
+  text-align: center;
+  background: linear-gradient(to right, #7953cd 20%, #00affa 30%, #0190cd 70%, #764ada 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+} */
+/* @keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */
+#timer{
+  padding: 0%;
+}
+
+.TTG {
+  font-family: Prohibition;
+  font-size: 30px;
+  color: white;
+  display: grid;
+  text-align: center;
+}
+.abt {
+  font-family: Prohibition;
+  font-size: 300%;
+  display: grid;
+  text-align: center;
+  place-content: center;
+}
+
+.container {
+  margin-top: -50px;
+  margin-bottom: 10%;
+  width: 600px;
+  height: 300px;
+  place-content: center;
+}
+.left, .right {
+  /* width: 50%; */
+  height: 100%;
+  float: left;
+}
+.list {
+  list-style-type: none;
+}
+.list li {
+  margin: 10px;
+  padding: 5px;
+  font-family: Prohibition;
+  font-size: 25px;
+  color: #ffffff;
+}
+.left {
+  text-align: left;
+
+}
+.right {
+  text-align: right;
+}
+.contact-head{
+  display: grid;
+  place-content: center;
+  font-size: 300%;
+}
+.contact a{
+  text-decoration: none;
+}
+.socials{
+  place-content: center;
+  text-decoration: none;
+}
+
+.socials div{
+  grid-row: 3;
+  color: #00F0FF;
+  background-color: #343232;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+}
